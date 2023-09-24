@@ -3,11 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:storezewin/presention/forget_password/forget_password_view.dart';
 import 'package:storezewin/presention/login/login_view.dart';
 import 'package:storezewin/presention/main/main_view.dart';
-import 'package:storezewin/presention/onbording/onbording_view.dart';
+
 import 'package:storezewin/presention/register/register_view.dart';
 import 'package:storezewin/presention/resources/strings_manager.dart';
 import 'package:storezewin/presention/splash/splash_view.dart';
 import 'package:storezewin/presention/store_details/store_details_view.dart';
+
+import '../onboarding/onboarding_view.dart';
 
 class Routes {
   static const String splashRoute = '/';
